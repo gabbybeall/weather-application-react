@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
+      <button className="btn btn-primary">Click Me</button>
       <footer>
         This project was coded by{" "}
         <a href="https://gabrielle-b.netlify.app/" target="_blank">
