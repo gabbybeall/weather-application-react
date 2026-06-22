@@ -15,8 +15,7 @@ export default function Weather(props) {
       date: new Date(response.data.time * 1000),
       description: response.data.condition.description,
       humidity: response.data.temperature.humidity,
-      iconUrl:
-        "https://www.gstatic.com/weather/conditions/v1/svg/partly_cloudy_light.svg",
+      iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
     });
   }
 
