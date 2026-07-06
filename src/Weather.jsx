@@ -67,7 +67,7 @@ export default function Weather(props) {
           <li className="text-capitalize">{weatherData.description}</li>
         </ul>
         <div className="row mt-3">
-          <div className="col-6">
+          <div className="col-6 current-weather">
             <img src={weatherData.iconUrl} alt={weatherData.description} />
             <WeatherTemperature fahrenheit={weatherData.temperature} />
           </div>

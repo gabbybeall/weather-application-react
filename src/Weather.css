@@ -25,11 +25,14 @@
   list-style: none;
 }
 
+.Weather .current-weather {
+  display: flex;
+  align-items: center;
+}
+
 .Weather img {
-  font-size: 16px;
-  height: 60px;
-  width: 60px;
-  position: relative;
+  height: 80px;
+  width: 80px;
   top: -15px;
 }
 
@@ -40,6 +43,10 @@
   font-weight: 400;
   line-height: 56px;
   margin-left: 10px;
+}
+
+.Weather .col-6 {
+  margin-bottom: 20px;
 }
 
 .Weather .unit {
